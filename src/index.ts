@@ -31,6 +31,11 @@ export {
 , isJson
 , isNull
 , isNumber
+, isFinite
+, isPositiveInfinity
+, isNegativeInfinity
+, isNaN
+, isntNaN
 , isObject
 , isPlainObject
 , isPromise
