@@ -42,6 +42,7 @@ export {
 , isPromiseLike
 , isString
 , isUndefined
+, isRegExp
 , isntArray
 , isntAsyncIterable
 , isntBigInt
@@ -63,4 +64,5 @@ export {
 , isntPromiseLike
 , isntString
 , isntUndefined
+, isntRegExp
 } from '@blackglory/types'
