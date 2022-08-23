@@ -14,6 +14,7 @@ export {
 , NonEmptyArray
 , Nullable
 , Nullish
+, TypedArray
 } from 'justypes'
 export {
   isArray
@@ -43,6 +44,7 @@ export {
 , isString
 , isUndefined
 , isRegExp
+, isSymbol
 , isntArray
 , isntAsyncIterable
 , isntBigInt
@@ -65,4 +67,5 @@ export {
 , isntString
 , isntUndefined
 , isntRegExp
+, isntSymbol
 } from '@blackglory/types'
