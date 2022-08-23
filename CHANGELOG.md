@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/BlackGlory/prelude/compare/v0.1.3...v0.1.4) (2022-08-23)
+
+
+### Features
+
+* export TypedArray, isSymbol, isntSymbol ([791b6b0](https://github.com/BlackGlory/prelude/commit/791b6b001300ac3a54e0b0e30d7097861fbfe618))
+
 ### [0.1.3](https://github.com/BlackGlory/prelude/compare/v0.1.2...v0.1.3) (2022-07-22)
 
 ### [0.1.2](https://github.com/BlackGlory/prelude/compare/v0.1.1...v0.1.2) (2022-06-21)
