@@ -31,6 +31,7 @@ export {
 , isIterable
 , isJson
 , isNull
+, isNullish
 , isNumber
 , isFinite
 , isPositiveInfinity
@@ -59,6 +60,7 @@ export {
 , isntIterable
 , isntJson
 , isntNull
+, isntNullish
 , isntNumber
 , isntObject
 , isntPlainObject
