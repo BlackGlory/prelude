@@ -1,9 +1,16 @@
-export { assert } from '@blackglory/errors'
 export { go } from '@blackglory/go'
 export { log } from '@blackglory/log'
 export { lazy } from 'extra-lazy'
 export { pass } from '@blackglory/pass'
-export { toArray, toArrayAsync } from 'iterable-operator'
+export { assert, isError, isntError } from '@blackglory/errors'
+export {
+  toArray
+, toArrayAsync
+, isIterable
+, isntIterable
+, isAsyncIterable
+, isntAsyncIterable
+} from 'iterable-operator'
 export {
   Arrayable
 , Awaitable
@@ -16,19 +23,17 @@ export {
 , Nullish
 , TypedArray
 } from 'justypes'
+export { isPromise, isntPromise, isPromiseLike, isntPromiseLike } from 'extra-promise'
 export {
   isArray
-, isAsyncIterable
 , isBigInt
 , isBoolean
 , isChar
 , isDate
 , isEmptyArray
 , isEmptyObject
-, isError
 , isFalsy
 , isFunction
-, isIterable
 , isJson
 , isNull
 , isNullish
@@ -40,34 +45,27 @@ export {
 , isntNaN
 , isObject
 , isPlainObject
-, isPromise
-, isPromiseLike
 , isString
 , isUndefined
 , isRegExp
 , isSymbol
 , isntArray
-, isntAsyncIterable
 , isntBigInt
 , isntBoolean
 , isntChar
 , isntDate
 , isntEmptyArray
 , isntEmptyObject
-, isntError
 , isntFalsy
 , isntFunction
-, isntIterable
 , isntJson
 , isntNull
 , isntNullish
 , isntNumber
 , isntObject
 , isntPlainObject
-, isntPromise
-, isntPromiseLike
 , isntString
 , isntUndefined
 , isntRegExp
 , isntSymbol
-} from '@blackglory/types'
+} from 'extra-utils'
