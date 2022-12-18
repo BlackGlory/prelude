@@ -61,6 +61,15 @@
     "@blackglory/types" "^1.4.0"
     iterable-operator "^2.1.0"
 
+"@blackglory/errors@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@blackglory/errors/-/errors-2.4.1.tgz#593ddeba0164e6a7f405a476da7d810159b258f0"
+  integrity sha512-Bx7FL9SeRFc05fF1qwvl9mF5J2ORjuLzPOKBT3n8XxP43n/iNNvXiFojmGgZdqL3qAzZCUGLJ0Kay3mr/kltJw==
+  dependencies:
+    "@blackglory/pass" "^1.1.0"
+    "@blackglory/types" "^1.4.0"
+    iterable-operator "^2.5.0"
+
 "@blackglory/go@^0.1.0":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@blackglory/go/-/go-0.1.1.tgz#c0c766a1381a72a1d1557f54e11208b4b287fb28"

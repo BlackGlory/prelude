@@ -46,7 +46,7 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "@blackglory/errors": "^2.3.0",
+    "@blackglory/errors": "^2.4.1",
     "@blackglory/go": "^1.1.2",
     "@blackglory/log": "^1.3.3",
     "@blackglory/pass": "^1.1.0",
