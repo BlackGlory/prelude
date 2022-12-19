@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/BlackGlory/prelude/compare/v0.1.10...v0.2.0) (2022-12-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* - Renamed `isJson` to `isJSONValue`
+- Renamed `isntJson` to `isntJSONValue`
+
+* upgrade dependencies ([a9076e3](https://github.com/BlackGlory/prelude/commit/a9076e32edad65c3f9bb09a2c5d4acaf9fde74da))
+
 ### [0.1.10](https://github.com/BlackGlory/prelude/compare/v0.1.9...v0.1.10) (2022-12-18)
 
 ### [0.1.9](https://github.com/BlackGlory/prelude/compare/v0.1.8...v0.1.9) (2022-12-18)
