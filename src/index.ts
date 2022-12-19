@@ -17,7 +17,7 @@ export {
 , Constructor
 , Falsy
 , Getter
-, Json
+, JSONValue
 , NonEmptyArray
 , Nullable
 , Nullish
@@ -34,7 +34,7 @@ export {
 , isEmptyObject
 , isFalsy
 , isFunction
-, isJson
+, isJSONValue
 , isNull
 , isNullish
 , isNumber
@@ -58,7 +58,7 @@ export {
 , isntEmptyObject
 , isntFalsy
 , isntFunction
-, isntJson
+, isntJSONValue
 , isntNull
 , isntNullish
 , isntNumber
