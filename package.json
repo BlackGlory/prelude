@@ -32,11 +32,11 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0",
-    "@typescript-eslint/eslint-plugin": "^5.46.1",
-    "@typescript-eslint/parser": "^5.46.1",
-    "eslint": "^8.30.0",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "eslint": "^8.32.0",
     "husky": "4",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
@@ -46,14 +46,14 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "@blackglory/errors": "^2.4.1",
+    "@blackglory/errors": "^2.4.3",
     "@blackglory/go": "^1.1.2",
     "@blackglory/log": "^1.3.3",
     "@blackglory/pass": "^1.1.0",
     "extra-lazy": "^1.3.1",
-    "extra-promise": "^4.4.0",
+    "extra-promise": "^4.4.0 || ^5.0.1",
     "extra-utils": "^4.0.0",
-    "iterable-operator": "^2.5.0 || ^3.0.0",
-    "justypes": "^4.0.0"
+    "iterable-operator": "^3.1.1",
+    "justypes": "^4.1.0"
   }
 }
