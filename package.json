@@ -7,23 +7,26 @@
     "lib"
   ],
   "sideEffects": false,
+  "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "engines": {
+    "node": ">=16"
+  },
   "repository": "git@github.com:BlackGlory/prelude.git",
   "author": "BlackGlory <woshenmedoubuzhidao@blackglory.me>",
   "license": "MIT",
   "scripts": {
+    "prepare": "ts-patch install -s",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx --quiet src",
-    "prepublishOnly": "run-s clean build",
+    "prepublishOnly": "run-s prepare clean build",
     "clean": "rimraf lib",
-    "build": "run-s build:*",
-    "build:compile": "tsc --project tsconfig.build.json --module commonjs --target es2018 --outDir lib",
-    "build:patch": "tscpaths -p tsconfig.build.json -s ./src -o ./lib",
+    "build": "tsc --project tsconfig.build.json --outDir lib",
     "release": "standard-version"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "run-s lint build",
+      "pre-commit": "run-s prepare lint build",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
@@ -37,9 +40,11 @@
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
     "standard-version": "^9.5.0",
+    "ts-patch": "^2.1.0",
     "tscpaths": "^0.0.9",
     "tslib": "^2.4.1",
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.4",
+    "typescript-transform-paths": "^3.4.6"
   },
   "dependencies": {
     "@blackglory/errors": "^2.4.3",
@@ -47,9 +52,9 @@
     "@blackglory/log": "^1.3.3",
     "@blackglory/pass": "^1.1.0",
     "extra-lazy": "^1.3.1",
-    "extra-promise": "^4.4.0 || ^5.0.1",
-    "extra-utils": "^4.0.0",
-    "iterable-operator": "^3.1.1",
+    "extra-promise": "^6.0.2",
+    "extra-utils": "^5.0.1",
+    "iterable-operator": "^4.0.2",
     "justypes": "^4.1.0"
   }
 }
