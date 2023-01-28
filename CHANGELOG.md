@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.4](https://github.com/BlackGlory/prelude/compare/v0.2.3...v0.2.4) (2023-01-28)
+
+
+### Bug Fixes
+
+* dependencies ([8343377](https://github.com/BlackGlory/prelude/commit/8343377ad8a9aadfc46757be6156883b952a85f6))
+
 ### [0.2.3](https://github.com/BlackGlory/prelude/compare/v0.2.2...v0.2.3) (2023-01-28)
 
 
