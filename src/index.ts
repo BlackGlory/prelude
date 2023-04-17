@@ -68,4 +68,5 @@ export {
 , isntUndefined
 , isntRegExp
 , isntSymbol
+, toString
 } from 'extra-utils'
