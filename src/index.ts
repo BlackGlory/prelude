@@ -2,7 +2,7 @@ export { go } from '@blackglory/go'
 export { log } from '@blackglory/log'
 export { lazy } from 'extra-lazy'
 export { pass } from '@blackglory/pass'
-export { assert, isError, isntError } from '@blackglory/errors'
+export { assert, isError, isntError, CustomError } from '@blackglory/errors'
 export {
   toArray
 , toArrayAsync
