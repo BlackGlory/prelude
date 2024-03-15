@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.5](https://github.com/BlackGlory/prelude/compare/v0.3.4...v0.3.5) (2024-03-15)
+
+
+### Features
+
+* export `CustomError` ([c75894c](https://github.com/BlackGlory/prelude/commit/c75894c8bd1548e96392e2d91f1eefa4df1948d0))
+* export `pipe`, `pipeAsync` ([ab017ae](https://github.com/BlackGlory/prelude/commit/ab017aecaac792acd99a75483c1919dcfef3a756))
+
 ### [0.3.4](https://github.com/BlackGlory/prelude/compare/v0.3.3...v0.3.4) (2023-08-18)
 
 
