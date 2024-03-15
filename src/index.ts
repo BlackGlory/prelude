@@ -69,4 +69,6 @@ export {
 , isntRegExp
 , isntSymbol
 , toString
+, pipe
+, pipeAsync
 } from 'extra-utils'
