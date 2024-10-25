@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/BlackGlory/prelude/compare/v0.3.5...v0.4.0) (2024-10-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v16 => Node.js v18.17.0
+
+* upgrade dependencies ([07e9c1e](https://github.com/BlackGlory/prelude/commit/07e9c1e11e1169d93a4374885c6725f209d8a143))
+
 ### [0.3.5](https://github.com/BlackGlory/prelude/compare/v0.3.4...v0.3.5) (2024-03-15)
 
 
