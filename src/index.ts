@@ -101,3 +101,11 @@ export {
 , shuffle
 } from 'extra-rand'
 export { AbortError, TimeoutError, timeoutSignal } from 'extra-abort'
+export {
+  setTimeout
+, setInterval
+, setSchedule
+, setImmediate
+, setTimeoutLoop
+, setDynamicTimeoutLoop
+} from 'extra-timers'

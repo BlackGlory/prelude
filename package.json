@@ -58,6 +58,7 @@
     "extra-promise": "^7.0.0",
     "extra-rand": "^0.5.1",
     "extra-tags": "^0.5.4",
+    "extra-timers": "^0.3.1",
     "extra-utils": "^6.1.0",
     "iterable-operator": "^6.0.0",
     "justypes": "^4.3.0"
