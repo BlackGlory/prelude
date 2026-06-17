@@ -23,7 +23,13 @@ export {
 , Nullish
 , TypedArray
 } from 'justypes'
-export { isPromise, isntPromise, isPromiseLike, isntPromiseLike } from 'extra-promise'
+export {
+  isPromise
+, isntPromise
+, isPromiseLike
+, isntPromiseLike
+, Deferred
+} from 'extra-promise'
 export {
   isArray
 , isBigInt
@@ -71,4 +77,11 @@ export {
 , toString
 , pipe
 , pipeAsync
+, clamp
+, first
+, last
+, lerp
+, min
+, max
+, sum
 } from 'extra-utils'
