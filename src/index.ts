@@ -87,4 +87,4 @@ export {
 } from 'extra-utils'
 export { dedent } from 'extra-tags'
 export { Destructor, SyncDestructor } from 'extra-defer'
-export { sliceArrayLeft, sliceArrayRight } from '@blackglory/structures'
+export { sliceArrayLeft, sliceArrayRight, Emitter, Queue } from '@blackglory/structures'
