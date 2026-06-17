@@ -54,6 +54,7 @@
     "@blackglory/structures": "^0.14.15",
     "extra-abort": "^0.5.1",
     "extra-defer": "^0.3.1",
+    "extra-generator": "^0.7.1",
     "extra-lazy": "^2.0.2",
     "extra-promise": "^7.0.0",
     "extra-rand": "^0.5.1",

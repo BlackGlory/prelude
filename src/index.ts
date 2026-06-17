@@ -117,3 +117,4 @@ export {
 , getErrorResultAsync
 , getErrorResultPromise
 } from 'return-style'
+export { repeat, range } from 'extra-generator'
