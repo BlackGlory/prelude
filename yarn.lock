@@ -90,7 +90,7 @@
     iterable-operator "^4.0.3"
     justypes "^4.2.0"
 
-"@blackglory/structures@^0.14.12", "@blackglory/structures@^0.14.2":
+"@blackglory/structures@^0.14.12", "@blackglory/structures@^0.14.15", "@blackglory/structures@^0.14.2":
   version "0.14.15"
   resolved "https://registry.yarnpkg.com/@blackglory/structures/-/structures-0.14.15.tgz#218c29c08c8ce403de768cf82d67537de050ebfc"
   integrity sha512-uT6s1PS+Jx34XZtGQ+oyojXI0L3jfV+54OxiXauUlboP5JtdLuiHuy8IGAXtN5h02Apz2IZBDDvO0PsGM4Bzuw==
