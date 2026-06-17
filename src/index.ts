@@ -89,4 +89,4 @@ export {
 export { dedent } from 'extra-tags'
 export { Destructor, SyncDestructor } from 'extra-defer'
 export { sliceArrayLeft, sliceArrayRight, Emitter, Queue } from '@blackglory/structures'
-export { randomBool, randomFloat, randomInt, randomIntInclusive } from 'extra-rand'
+export { randomBool, randomFloat, randomInt, randomIntInclusive, shuffle } from 'extra-rand'
