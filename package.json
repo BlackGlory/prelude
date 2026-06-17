@@ -12,7 +12,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "engines": {
-    "node": ">=18.17.0"
+    "node": ">=22"
   },
   "repository": "git@github.com:BlackGlory/prelude.git",
   "author": "BlackGlory <woshenmedoubuzhidao@blackglory.me>",
@@ -56,8 +56,8 @@
     "extra-lazy": "^2.0.2",
     "extra-promise": "^7.0.0",
     "extra-tags": "^0.5.4",
-    "extra-utils": "^5.16.0",
-    "iterable-operator": "^5.1.0",
+    "extra-utils": "^6.1.0",
+    "iterable-operator": "^6.0.0",
     "justypes": "^4.3.0"
   }
 }
