@@ -10,7 +10,6 @@ export {
 , isntIterable
 , isAsyncIterable
 , isntAsyncIterable
-, 
 } from 'iterable-operator'
 export {
   Arrayable
@@ -88,5 +87,17 @@ export {
 } from 'extra-utils'
 export { dedent } from 'extra-tags'
 export { Destructor, SyncDestructor } from 'extra-defer'
-export { sliceArrayLeft, sliceArrayRight, Emitter, Queue } from '@blackglory/structures'
-export { randomBool, randomFloat, randomInt, randomIntInclusive, shuffle } from 'extra-rand'
+export {
+  sliceArrayLeft
+, sliceArrayRight
+, Emitter
+, Queue
+} from '@blackglory/structures'
+export {
+  randomBool
+, randomFloat
+, randomInt
+, randomIntInclusive
+, shuffle
+} from 'extra-rand'
+export { AbortError, TimeoutError, timeoutSignal } from 'extra-abort'

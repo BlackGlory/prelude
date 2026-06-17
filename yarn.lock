@@ -1506,6 +1506,19 @@ extra-abort@^0.4.1:
     iterable-operator "^5.1.0"
     justypes "^4.4.1"
 
+extra-abort@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/extra-abort/-/extra-abort-0.5.1.tgz#558a4e648ef262c9919ea0ce03301fd298e7949c"
+  integrity sha512-XPbKY0p+5g668dXkcTZXA080s+1hPlXB6dkZvTQNADZmhxbgeS4k2vg1RpxPRoydJatJoTUuxseawrY8s78fsw==
+  dependencies:
+    "@blackglory/errors" "^3.1.0"
+    "@blackglory/go" "^2.0.0"
+    "@blackglory/pass" "^1.1.1"
+    extra-defer "^0.3.1"
+    extra-timers "^0.3.1"
+    iterable-operator "^6.0.0"
+    justypes "^4.5.0"
+
 extra-compatible@^0.2.0:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/extra-compatible/-/extra-compatible-0.2.5.tgz#236a6b987e4c3d9e12703e2a50839f69207a9ba8"
@@ -1603,6 +1616,15 @@ extra-rand@^0.1.1:
   resolved "https://registry.yarnpkg.com/extra-rand/-/extra-rand-0.1.5.tgz#5a3bbba6bbc8ed4e2c0c9dc66a4a2b6a309040df"
   integrity sha512-xOaelLjCoQrCjnpNHCwoKHew4Jiu2ZeFGVEce0MgFCvPoZGnu9KO/zv+OObnvV4Np8k05/Q0x1GaEqHXuveeYg==
 
+extra-rand@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/extra-rand/-/extra-rand-0.4.1.tgz#ccaa16b97e883a6dbefcc963d0a4302ee8bd92c8"
+  integrity sha512-wBQwldlMD8sJRvHugRfxC8pA4fo2MyffSCNXzaP3oHTcu8L1ZJldWuxf6Bs7X4h6NnkuRAap8bxQ6GTptYE2MA==
+  dependencies:
+    "@blackglory/errors" "^3.0.3"
+    extra-utils "^5.15.0"
+    justypes "^4.2.1"
+
 extra-rand@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/extra-rand/-/extra-rand-0.5.1.tgz#fe0371c13001ca0c867ea562398d5e1c38f054cf"
@@ -1625,7 +1647,17 @@ extra-timers@^0.2.5, extra-timers@^0.2.6:
   dependencies:
     extra-rand "^0.1.1"
 
-extra-utils@^5.1.0, extra-utils@^5.1.1, extra-utils@^5.16.0, extra-utils@^5.2.0, extra-utils@^5.20.0, extra-utils@^5.21.0, extra-utils@^5.4.0, extra-utils@^5.6.0:
+extra-timers@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/extra-timers/-/extra-timers-0.3.1.tgz#e07515e6511fd11b7ac5f51ab0950f069dfedcc0"
+  integrity sha512-BsrNwC7eFEYAu/sJnB60iIen8fwYQt3BkLGDH+RrtO7+RY33TwWVFkHmpyd/bckkAlmurjUtNWdwQ7ikDT5HLg==
+  dependencies:
+    "@blackglory/pass" "^1.1.1"
+    extra-rand "^0.4.1"
+    extra-utils "^5.19.0"
+    justypes "^4.5.0"
+
+extra-utils@^5.1.0, extra-utils@^5.1.1, extra-utils@^5.15.0, extra-utils@^5.16.0, extra-utils@^5.19.0, extra-utils@^5.2.0, extra-utils@^5.20.0, extra-utils@^5.21.0, extra-utils@^5.4.0, extra-utils@^5.6.0:
   version "5.21.0"
   resolved "https://registry.yarnpkg.com/extra-utils/-/extra-utils-5.21.0.tgz#6ef27d7cf74749d0f1a25e1053e5d8b352ccf053"
   integrity sha512-CcHHyAixw7rWc1cPKabKLwUYoA9ERszfHlh9kFJyZU2z/sND0zrEHChN6ex9XFquc4nshj5GlRikzV/+B7cwKQ==

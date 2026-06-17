@@ -52,6 +52,7 @@
     "@blackglory/log": "^2.0.2",
     "@blackglory/pass": "^1.1.1",
     "@blackglory/structures": "^0.14.15",
+    "extra-abort": "^0.5.1",
     "extra-defer": "^0.3.1",
     "extra-lazy": "^2.0.2",
     "extra-promise": "^7.0.0",
