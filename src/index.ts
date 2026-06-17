@@ -86,3 +86,4 @@ export {
 , sum
 } from 'extra-utils'
 export { dedent } from 'extra-tags'
+export { Destructor, SyncDestructor } from 'extra-defer'
