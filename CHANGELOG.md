@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/BlackGlory/prelude/compare/v0.4.1...v0.5.0) (2026-06-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v18 => Node.js v22
+
+### Features
+
+* export `AbortError`, `TimeoutError`, `timeoutSignal` ([15803b0](https://github.com/BlackGlory/prelude/commit/15803b082b96461a45f13bbd651f89f97eadea3e))
+* export `getError`, `getErrorAsync`, `getErrorPromise`, `getErrorResult`, `getErrorResultAsync`, `getErrorResultPromise` ([c61cf2f](https://github.com/BlackGlory/prelude/commit/c61cf2f8b39effdf3050ad7f035ae058fe3a878c))
+* export `randomBool`, `randomFloat`, `randomInt`, randomIntInclusive` ([515281e](https://github.com/BlackGlory/prelude/commit/515281e05f88b28507313047541c04c6d9ec52e9))
+* export `repeat`, `range` ([fa324e4](https://github.com/BlackGlory/prelude/commit/fa324e4e259557ee6d4ef25e61f0260e69666b8b))
+* export `setTimeout`, `setInterval`, `setSchedule`, `setImmediate`, `setTimeoutLoop`, `setDynamicTimeoutLoop` ([853358e](https://github.com/BlackGlory/prelude/commit/853358eb458c23d847b1024714c587f1bd9ef5d0))
+* export `shuffle` ([a5490c7](https://github.com/BlackGlory/prelude/commit/a5490c73d582ac057a645feec88a6fec0a2c057b))
+
+
+* upgrade dependencies ([e07cf81](https://github.com/BlackGlory/prelude/commit/e07cf81f433c335503758f544c1fd976a441b86a))
+
 ### [0.4.1](https://github.com/BlackGlory/prelude/compare/v0.4.0...v0.4.1) (2026-06-17)
 
 
