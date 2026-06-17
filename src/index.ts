@@ -109,3 +109,11 @@ export {
 , setTimeoutLoop
 , setDynamicTimeoutLoop
 } from 'extra-timers'
+export {
+  getError
+, getErrorAsync
+, getErrorPromise
+, getErrorResult
+, getErrorResultAsync
+, getErrorResultPromise
+} from 'return-style'
