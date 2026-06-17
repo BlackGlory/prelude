@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/BlackGlory/prelude/compare/v0.4.0...v0.4.1) (2026-06-17)
+
+
+### Features
+
+* export `dedent` ([697db0e](https://github.com/BlackGlory/prelude/commit/697db0eb381185a13e2f8f7a7e877f68baab77b1))
+* export `Deferred`, `clamp`, `first`, `last`, `lerp`, `min`, `max`, `sum` ([296a8ca](https://github.com/BlackGlory/prelude/commit/296a8ca2dd342ef7e79931f8720a405b7dc75232))
+* export `Destructor`, `SyncDestructor` ([3df4f05](https://github.com/BlackGlory/prelude/commit/3df4f05376559755df48d9d7e94e549c09e28ccb))
+* export `Emitter`, `Queue` ([f8ef370](https://github.com/BlackGlory/prelude/commit/f8ef370c5b90c4bec361ce990776da6d6e4d7210))
+* export `sliceArrayLeft`, `sliceArrayRight` ([534f156](https://github.com/BlackGlory/prelude/commit/534f156c94b1834431e5f2f64e21ec7f3b6a58d6))
+
 ## [0.4.0](https://github.com/BlackGlory/prelude/compare/v0.3.5...v0.4.0) (2024-10-25)
 
 
