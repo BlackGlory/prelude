@@ -1603,6 +1603,14 @@ extra-rand@^0.1.1:
   resolved "https://registry.yarnpkg.com/extra-rand/-/extra-rand-0.1.5.tgz#5a3bbba6bbc8ed4e2c0c9dc66a4a2b6a309040df"
   integrity sha512-xOaelLjCoQrCjnpNHCwoKHew4Jiu2ZeFGVEce0MgFCvPoZGnu9KO/zv+OObnvV4Np8k05/Q0x1GaEqHXuveeYg==
 
+extra-rand@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/extra-rand/-/extra-rand-0.5.1.tgz#fe0371c13001ca0c867ea562398d5e1c38f054cf"
+  integrity sha512-j2vhHm5UFqu2mqCoEoN6nhP6qb4XIFNIHS0KgCY1ZLFXSEJ90TdJPeUweOmxzlVrRrzmjYk8sspvPFUH7I2zCQ==
+  dependencies:
+    "@blackglory/prelude" "^0.4.0"
+    extra-utils "^5.21.0"
+
 extra-tags@^0.5.4:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/extra-tags/-/extra-tags-0.5.4.tgz#74e0d282fe881c95e58b82095eb1d0f76df89079"
@@ -1617,7 +1625,7 @@ extra-timers@^0.2.5, extra-timers@^0.2.6:
   dependencies:
     extra-rand "^0.1.1"
 
-extra-utils@^5.1.0, extra-utils@^5.1.1, extra-utils@^5.16.0, extra-utils@^5.2.0, extra-utils@^5.20.0, extra-utils@^5.4.0, extra-utils@^5.6.0:
+extra-utils@^5.1.0, extra-utils@^5.1.1, extra-utils@^5.16.0, extra-utils@^5.2.0, extra-utils@^5.20.0, extra-utils@^5.21.0, extra-utils@^5.4.0, extra-utils@^5.6.0:
   version "5.21.0"
   resolved "https://registry.yarnpkg.com/extra-utils/-/extra-utils-5.21.0.tgz#6ef27d7cf74749d0f1a25e1053e5d8b352ccf053"
   integrity sha512-CcHHyAixw7rWc1cPKabKLwUYoA9ERszfHlh9kFJyZU2z/sND0zrEHChN6ex9XFquc4nshj5GlRikzV/+B7cwKQ==
