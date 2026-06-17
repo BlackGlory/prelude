@@ -53,6 +53,7 @@
     "@blackglory/pass": "^1.1.1",
     "extra-lazy": "^2.0.2",
     "extra-promise": "^7.0.0",
+    "extra-tags": "^0.5.4",
     "extra-utils": "^5.16.0",
     "iterable-operator": "^5.1.0",
     "justypes": "^4.3.0"

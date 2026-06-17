@@ -85,3 +85,4 @@ export {
 , max
 , sum
 } from 'extra-utils'
+export { dedent } from 'extra-tags'
